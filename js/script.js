@@ -13,7 +13,7 @@ const app = new Vue({
       this.index !== 0 ? this.index-- : this.index = this.pics.length -1 ;
     },
     setPic : function(i){
-      this.index =i;
+      this.index = i;
     }
   }
 })
