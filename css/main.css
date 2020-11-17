@@ -52,3 +52,7 @@
 .nav > i.active {
     color: blue;
 }
+
+.nav > i:hover{
+  cursor:pointer;
+}
