@@ -10,7 +10,7 @@
 
     <body>
 
-      <div id="app" class="container">
+      <div id="app" tabindex="0" @keyup.right="nextImg" @keyup.left ='prevImg' class="container">
           <div class="slider-wrapper">
 
             <div @click ='prevImg' class="prev" >
@@ -21,7 +21,7 @@
               <img :src="pics[index]" alt="">
             </div>
 
-            <div @click ='nextImg' class="next" >
+            <div v-on:keyup.left="nextImg" @click ='nextImg' class="next" >
               <i class="fas fa-angle-right"></i>
             </div>
 

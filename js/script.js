@@ -16,4 +16,4 @@ const app = new Vue({
       this.index = i;
     }
   }
-})
+});
